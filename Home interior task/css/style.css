@@ -1,0 +1,1229 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+/* .....header start.... */
+.header
+{
+    /* height: 50px;    */
+    background: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+    text-align: left;
+    line-height: 50px;
+
+}
+.header .x
+{
+    border: 1px solid black;
+    
+    
+}
+.header .x1
+{
+    width: 40%;
+    height: 50px;
+    /* background-color: aqua; */
+    /* display: flex; */
+    padding-left: 5px;
+}
+
+.header .x1 i{
+    border-left: 2px solid white;
+    padding: 0 15px;
+}
+.header .p
+{
+    margin-right:10px;
+    border-left: 5px black;
+    /* padding: 0 10px; */
+}
+
+.header .x .fa-brands,.fa-solid
+ {
+    font-size: 18px;
+    font-weight: bold;
+ 
+} 
+
+
+
+.header .x2
+{
+    height: 50px;
+    width: 20%;
+    /* background:blue; */
+   
+}
+.header .x3
+{
+    height: 50px;
+    width: 20%;
+    /* background:orange; */
+}
+
+.header .x4
+{
+    height: 50px;
+    width: 20%;
+    /* background:lightgreen; */
+}
+
+.header .x2
+{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 15px;
+
+}
+.header .x3
+{
+    font-family:  SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 15px;
+}
+
+.header .x4
+{
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+}
+
+.header .x1 i
+{
+    cursor: pointer;
+}
+.header .x2 span, .x4 span
+{
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* .....header start.... */
+
+/* ......nav start..... */
+
+.nav
+{
+    /* height: 150px; */
+    /* background: lightgreen; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.nav .y1 {
+    height: 150px;
+    width: 30%;
+    /* background-color:red; */
+    text-align: center;
+    line-height: 150px;
+}
+
+.nav .y1 a
+{
+    font-size: 40px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.nav .y2
+ {
+    height: 150px;
+    width: 50%;
+    /* background-color: white; */
+    padding: 50px;
+    text-align: center;
+}
+
+.y2 ul
+{
+list-style: none;
+
+}
+ 
+.y2 a
+{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    /* color: grey; */
+}
+
+.y2 a:hover
+{
+    color: black;
+}
+
+.y2 .same
+{
+    display: inline;
+    position: relative;
+    margin-right: 30px;
+}
+
+nav .y2 span
+{
+    display: none;
+}
+
+
+
+.y2 .dame
+{
+    display: none;
+    position: absolute;
+    top: 200%;
+    right:-100px;
+    height: 100px;
+    width: 350%;
+    position: absolute;
+    z-index: 1;
+    background: rgb(245, 234, 234);
+}
+
+
+
+.y2 .same:hover .dame
+{
+    display: block;
+    
+}
+
+
+
+
+.nav .y3{
+    height: 150px;
+    width: 20%;
+    /* background-color: orange; */
+    position: relative;
+  
+  
+   
+}
+
+ .y3 .enq
+{
+    height:60px;
+    width:150px;
+    background-color: #ff668a;
+    color: white;
+    position: absolute;
+    margin: 40px 80px;
+    justify-content: center;
+    text-align: center;
+    line-height: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10%;
+    position: relative;
+}
+
+.y3 .enq:hover
+{
+    background-color: #eb2553;
+}
+
+.y3 .enq{
+    cursor: pointer;
+}
+
+/* .........nav end........ */
+
+/* ...........content pro start..... */
+
+.content_pro
+{
+    height: 500px;
+    /* border: 1px solid; */
+    background-image: url(home-interior-designing-service-500x500.webp);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 150px 15px;
+}
+
+.content_pro .design
+{
+    height:180px;
+    /* border: 1px solid; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.design h1
+{
+    font-size: 80px;
+    color: rgb(65, 19, 19);
+    text-shadow: 1px 4px white;
+    
+}
+
+.content_pro .ser
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 5%;
+    background-color: #ff668a;
+    justify-content: center;
+    text-align: center;
+    line-height:50px;
+    position: absolute;
+    margin: 40px 650px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-shadow:2px 1px white;
+    animation: dav 5s linear infinite;
+}
+.content_pro .ser:hover
+{
+    background-color: #eb2553;
+}
+
+@keyframes dav
+{
+    0%{
+        background: yellowgreen;
+    }
+    40%{
+        background: blueviolet;
+    }
+    60%{
+        background: lightgreen;
+    }
+    100%{
+        background: lightseagreen;
+    }
+}
+ /* .........content pro end.....  */
+ 
+/* -- .........content_view. start.....  */
+
+
+.content_view
+{
+    /* height: 500px; */
+    width: 100%;
+    /* background: lightblue; */
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 25px;
+    
+    margin-top: -90px;
+    
+
+    
+
+}
+
+.content_view .menu
+{
+   height: 450px;
+   width: 31.7%;
+   /* border: 1px solid; */
+   position: relative;
+   border-radius: 5%;
+   box-shadow: 1px 1px 5px grey;
+   background: white;
+   margin-right: 21.2px;
+   padding: 0 20px;
+
+
+  
+}
+
+
+
+.menu .sign
+{
+    height: 100px;
+    width: 100%;
+    /* background: lightcoral; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+
+
+.menu .sign .gol
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 80%;
+    background: rgba(231, 225, 225, 0.5);
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+
+
+}
+
+.menu:hover .gol
+{
+    background: #ff668a;
+
+}
+
+
+.fa-pen-to-square,.fa-shower,.fa-bed
+{
+    font-size: 30px;
+    color: #ff668a;
+   
+}
+
+
+
+.menu:hover .fa-pen-to-square, .fa-shower,.fa-bed
+{
+    color: white;
+   
+}
+
+.menu .title:hover
+{
+    color: #eb2553;
+}
+.content_view .menu .text, .title
+{
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans U  nicode', Geneva, Verdana, sans-serif;
+    /* background-color:lightpink; */
+    transition: 1s;
+}
+
+.content_view .menu .extra
+{
+    /* background-color: blue; */
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    line-height: 100px;
+
+    
+  
+    
+}
+.extra h3
+{
+    position: relative;
+}
+.extra h3:after
+{
+    content: "";
+    position: absolute;
+    bottom: 25px;
+    height: 5px;
+    width: 20%;
+    left: 170px;
+    background: #ff668a;
+}
+
+
+
+.content_view .menu .extra, .title
+{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+.menu .title
+{
+    height: 100px;
+    width: 100%;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menu .text
+{
+    height: 150px;
+    width: 100%;
+    /* background-color: lightgreen; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/* ....content_view end.... */
+
+
+/* ....content_section start.... */
+.content_section
+{
+    /* height: 500px; */
+    width: 100%;
+    /* background: blue; */
+    /* border: 1px sol  id; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_section .info
+{
+    height: 450px;
+    width: 45%;
+    /* border: 1px solid; */
+    margin: 20px 15px;
+    /* background: white; */
+    position: relative;
+    
+}
+
+.content_section .info .up
+{
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+    
+
+}
+.content_section .info .middle
+{
+    height: 150px;
+    width: 100%;
+    /* background-color:green; */
+}
+
+.content_section .info .down
+{
+    height: 100px;
+    width: 100%;
+    /* background-color:lightpink; */
+}
+
+.info .up h1
+{
+    font-size: 40px;
+    padding: 40px 60px;
+}
+
+
+.info .middle
+{
+    font-size: 25px;
+    padding: 5px 5px;
+    padding: 30px 60px;
+}
+
+.info .down button
+
+{
+   
+    height: 50px;
+    width: 150px;
+    margin: 30px  50px;
+    border-radius: 5%;
+    border: none;
+    background-color: #ff668a;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+}
+
+.content_section .info .down button:hover
+{
+    background: #eb2553;
+}
+
+.content_section .tools
+{
+    height: 450px;
+    width: 50%;
+    /* border: 1px solid; */
+    margin: 20px 15px;
+    /* background: yellow; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+.content_section .tools .n
+{
+    height: 200px;
+    width: 180px;
+    /* background-color: aqua; */
+    margin: 15px 21px;
+    /* background-image: url(p1.jpg);
+    background-size: 100% 100%; */
+    border-radius: 15%;
+    /* position: absolute; */
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.content_section .tools .n:hover
+{
+    transform: translate(0px, -10px);
+}
+
+/* ....content_section end.... */
+
+
+/* ....content_structure start.... */
+.content_structure
+{
+    /* height: 500px; */
+    width: 100%;
+    /* background:yellow; */
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_structure .data
+
+{
+    height: 450px;
+    width: 50%;
+    /* background-color: lightsalmon; */
+    margin: 30px 15px;
+    /* border: 1px solid; */
+    /* display: flex; */
+    
+    
+}
+
+
+.content_structure .data .first
+{
+    height: 100px;
+    width: 100%;
+    /* background-color: lightblue; */
+    padding: 60px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+}
+
+.content_structure .data .second
+{
+    height: 150px;
+    width: 100%;
+    /* background-color: lightgrey;  */
+    padding: 20px 30px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content_structure .data .third
+{
+  height: 175px;
+  width: 100%;
+  /* background-color: bisque; */
+  display:flex;
+} 
+
+.content_structure .data .third .xy
+{
+    height: 170px;
+    width: 50%;
+    /* border: 1px solid; */
+    padding: 40px 50px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.content_structure .gallery
+{
+    height: 500px;
+    width: 45%;
+    /* background-color: orange */
+
+    
+
+  
+
+} 
+.content_structure .gallery .home
+{
+    height: 450px;
+    /* background: white; */
+    margin: 30px 15px;
+    overflow: hidden;
+    border-radius: 2%;
+    /* position: relative; */
+    background-image: url(p1.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.gallery .home .playbtn
+{
+    height: 100px;
+    width: 100px;
+    /* background: lightblue; */
+    position: relative;
+    margin:150px 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index:1;
+    border-radius: 80%;
+
+}
+
+.s1, .sp2, .sp3
+{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    position: absolute;
+    z-index: -1;
+    border-radius: 80%;
+}
+.sp1
+{
+    animation: par 1s linear infinite;
+}
+.sp2
+{
+    animation: hem 1s linear infinite;
+}
+.sp3
+{
+    animation: dew 1s linear infinite;
+}
+
+@keyframes par
+{
+    0%{transform: scale(1); opacity: 1;}
+    100%{transform: scale(1.4); opacity: 0.2;}
+}
+
+@keyframes hem
+{
+    0%{transform: scale(1); opacity: 1;}
+    100%{transform: scale(1.8); opacity: 0.2;}
+}
+
+@keyframes dew
+{
+    0%{transform: scale(1); opacity: 1;}
+    100%{transform: scale(2.2); opacity: 0.2;}
+}
+
+
+
+.fa-play
+{
+    font-size: 30px;
+}
+
+
+/* ....content_structure end... */
+
+
+/* ....content_project start... */
+
+.content_project
+{
+    /* height: 500px; */
+    /* background-color: lightblue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_project .project_image
+{
+    height: 450px;
+    width: 45%;
+    /* background-color: lightcoral; */
+    margin: 25px 50px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.content_project .Project_data
+{
+    height: 450px;
+    width: 45%;
+    /* background: lightgreen; */
+    margin: 25px 15px;
+}
+
+.Project_data .data1
+{
+    height: 100px;
+    /* background-color: lightskyblue; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    line-height: 45px;
+}
+
+.data1 .sub1
+{
+    height: 100px;
+    width: 33.33%;
+    /* border: 1px solid; */
+    /* position: absolute; */
+
+}
+
+.sub1 p
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+
+.sub1 h1
+{
+    font-size: 40px;
+}
+
+.Project_data .data2
+{
+    height: 200px;
+    background: white;
+    padding: 50px 10px;
+    font-size: 20px;
+}
+
+.Project_data .data3 button
+{
+    height: 50px;
+    width: 150px;
+    margin: 50px 20px;
+    background: #ff668a;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    position: relative;
+}
+button:hover
+{
+    background: #eb2553;
+}
+
+/* .......project_data end... */
+
+/* .....sticky_fixed start.... */
+
+.back_stick
+{
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(https://demo.w3layouts.com/demos_new/template_demo/06-06-2020/home-interior-liberty-demo_Free/779565612/web/assets/images/slide4.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+
+.back_stick .back_up
+{
+  height:200px;
+  /* border: 1px solid; */
+ }
+
+ .back_up h1
+ {
+    font-size:30px;
+    color: white;
+    /* align-items: center; */
+    text-align: center;
+    line-height: 50px;
+    padding: 90px;
+}
+
+.back_stick .back_down
+{
+    height: 200px;
+    /* border: 1px solid red; */
+    /* position: relative; */
+    display: flex;
+    /* background-color: yellow; */
+    text-align: center;
+    justify-content: center;
+    margin: 60px;
+  
+    
+}
+
+.back_down button
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 7%;
+    border: none;
+    /* position: absolute; */
+    margin-right: 10px;
+}
+.back_down .y
+{
+    background: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;
+}
+
+.back_down .z
+{
+    background-color: #ff668a;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.back_down .y:hover
+{
+    color: black;
+}
+.back_down .z:hover
+{
+    color:black;
+}
+
+/* .....sticky_fixed end.... */
+
+/* ......content_search.... */
+
+
+.content_search
+{
+    /* height: 300px; */
+    /* background: lightblue; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.content_search .p1
+{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+.content_search .p2
+{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+.content_search .p1 h1
+{
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 100px;
+font-size: 40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content_search .p2 p
+{
+display: flex;
+justify-content:center;
+align-items: center; 
+text-align: center;
+line-height: 30px;
+font-size: 20px;
+/* color: grey; */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content_search  .p3
+{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p3 .my input
+{
+    height: 50px;
+    width: 450px;
+    padding-left: 10px;
+    border-radius:5px;
+    color: grey;
+    border: 1px red solid;
+    outline: none;
+    
+}
+
+.p3 .my button
+{
+    height: 50px;
+    width: 150px;
+    background-color: #ff668a;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.p3 .my button:hover
+{
+    background-color: #eb2553;
+}
+
+/* ......content_search end... */
+ 
+/* ......footer start ... */
+
+.footer
+{
+    /* height: 450px; */
+    background: black;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+   
+    
+}
+.footup a
+
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.footer .footup
+{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid white; */
+    line-height:80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.footer .footmiddle
+{
+    /* height: 75px; */
+    width: 100%;
+    /* border: 1px solid white; */
+    line-height:30px;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .footmenu
+{
+    /* height: 300px; */
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.footmenu .s
+{
+    /* height: 300px; */
+    width: 20%;
+    /* border: 1px solid; */
+    
+}
+.footmenu .s .a
+{
+  /* height: 75px; */
+  /* border: 1px black; */
+  width: 100%;
+  /* background: #eb2553; */
+  padding: 20px;
+  color: white;
+  
+}
+.footmenu .s .b
+{
+    /* height: 75px; */
+    /* border: 1px solid; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    font-size: 18px;
+    /* display: flex; */
+    justify-content: left;
+}
+.footmenu .s .c
+{
+    /* height: 75px; */
+    /* border: 1px solid; */
+    font-size: 20px;
+    padding: 10px;
+  
+}
+.fa-phone, .fa-envelope
+{
+    font-size: 20px;
+}
+.footmenu .s .d
+{
+    /* height: 75px; */
+    /* border: 1px solid; */
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footmenu .o
+{
+    width: 20%;
+    /* border: 1px solid; */
+}
+.footmenu .o .e
+{
+    height: 50px;
+    /* border: 1px solid; */
+    color: white;
+}
+.footmenu .o .f
+{
+    height:250px;
+    /* border: 1px solid; */
+}
+
+.footmenu .o .f ul
+{
+    list-style: none;
+}
+.footmenu .o .f ul li
+{
+    margin: 15px;
+}
+.footmenu .o .f a
+{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:white;
+}
+/* - .....footer start.....  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+
+
+
+
+@media (max-width:850px)
+{ 
+    .header .x1
+    {
+        width:100%;
+
+    }
+    .header .x2
+    {
+        width:100%;
+
+    }
+    .header .x3
+    {
+        width:100%;
+
+    }
+    .header .x4
+    {
+        width:100%;
+
+    }
+
+    .content_pro
+    {
+        width: 100%;
+    }
+
+    .nav{width: 100%}
+    .nav .y3{display: none;}
+    .nav .y2 ul {display: none;}
+    .nav .y2 span{display: block;}
+
+    .header .x2, .x3, .x4{
+        font-size: 15px;
+    }
+
+    .nav .y1 a{font-size: 35px;}
+    
+    .content_pro .design h1{ font-size: 60px;}
+    .content_pro .ser{margin: 40px 300px;}
+
+    .content_view .menu{width: 50%;
+    margin-left: 25px;}
+
+    .content_section .info
+    {
+        width: 100%;
+    }
+    .content_section .tools
+    {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .content_structure .data 
+    {width: 100%;}
+    .content_structure .gallery
+    {width: 100%;}
+
+    .content_project .project_image
+    {width: 100%;}
+    .content_project .Project_data
+    {width: 100%;}
+
+    .back_stick .back_up
+     {width: 100%;}
+
+    .back_stick .back_down
+     {width: 100%;}
+
+     .footer .footmenu .s
+    {   width: 100%; 
+        text-align: left;
+        margin: 20px 0;
+    }
+        .footmenu .o
+    {
+        width: 25%;
+        font-size: 15px;
+    }
+
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
